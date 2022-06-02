@@ -92,7 +92,7 @@ const calculateHash = (fileChunkList) => {
       const { percentage, hash } = e.data;
       dataSource.hashPercentage = percentage;
       if (hash) {
-        resolve(hash);
+        resolve(hash)
       }
     };
   });
